@@ -95,3 +95,6 @@ The **solution** branch contains documented solution code.
    - `POST /api/users/:id/vacations` - has an object containing a valid placeId and travelDate as the payload, and returns the created vacation with a status code of 201
      - use `"travelDate": "{{$isoTimestamp}}"` to test in Postman
    - `DELETE /api/users/:userId/vacations/:id` - in the URL, gets passed the id of the vacation to delete and the userId, and returns nothing with a status code of 204
+
+
+//test
